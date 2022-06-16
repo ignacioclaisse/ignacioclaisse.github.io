@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Index</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/png" href="imagenes/logo.png" sizes="32x32" />
+
+    <script type="text/javascript">
+        $("#lolcat").mousedown(function() {
+            $(this).data("dragging", true);
+        });
+
+        $("#lolcat").mouseup(function() {
+            $(this).data("dragging", false);
+        });
+
+        $("#lolcat").mousemove(function(e) {
+            if (!$(this).data("dragging"))
+                return;
+            $(this).css("left", e.clientX - $(this).width()/2);
+            $(this).css("top", e.clientY - $(this).height()/2);
+        });
+
+     </script>
+</head>
+<body>
+
+  <div id="content" style="margin-top: 100px">
+      <img id="lolcat" src="3.png" style="width: 20%; position: absolute;" draggable="false" />
+  </div>
+
+
+
+</body>
+</html>

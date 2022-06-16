@@ -1,0 +1,236 @@
+body {
+	padding: 7px;
+	background-color: white;
+  font-family:texgyrehero-regular;
+	font-weight:100;
+	color: black;
+	}
+
+
+#main-title {
+  margin-top: 25px;
+}
+
+#mainb {
+  margin-top: 25px;
+
+
+}
+#mainc {
+  background-color: white;
+
+
+}
+
+h5 {
+	margin-bottom:2px;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: black;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+.m{
+  margin-left: 15px;
+  margin-top: 10px;
+
+}
+
+.info {
+	margin-top: 15px;
+}
+
+.col-sm-3{
+	padding: 3px;
+}
+
+.col-6 col-sm-3{
+	padding: 3px;
+}
+
+.col-sm-6{
+	padding: 0px;
+}
+.col-6{
+	padding: 3px;
+}
+
+#fots{
+	padding: 0px;
+}
+
+.col-md-6{
+	padding: 0px;
+}
+
+.col-md-3{
+	padding: 3px;
+}
+
+#scrollnido {
+	font-size: 40px;
+}
+
+#titulos {
+	font-size: 80px;
+
+}
+
+#vermas {
+	font-size: 80px;
+	padding-right: 7%;
+	text-align: right;
+
+
+}
+
+#datalibros{
+	font-size: 13px;
+	font-family:texgyrehero-condenced;
+	font-weight:20;
+
+}
+
+@font-face {
+  font-family: myriad;
+  src: url(Myriad.ttf);
+}
+
+@font-face {
+  font-family: texgyrehero-regular ;
+  src: url(texgyreheros-regular.otf);
+}
+
+@font-face {
+  font-family: texgyrehero-condenced ;
+  src: url(texgyreheroscn-regular.otf);
+}
+
+p{
+	margin-bottom:5px;
+	font-size: 13px;
+	font-family:texgyrehero-condenced;
+	font-weight:20;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
+.slider {
+		width: 100%;
+
+}
+
+.slick-slide {
+	margin: 0px 3px;
+}
+
+
+
+#precio {
+	font-size: 15px;
+	font-family: texgyrehero-regular ;
+
+
+}
+
+h4 {
+	font-size: 15px;
+	font-family: texgyrehero-regular ;
+}
+
+#myList li{ display:none;
+}
+#loadMore {
+		font-size: 40px;
+    color:black;
+    cursor:pointer;
+		text-align: center;
+}
+#loadMore:hover {
+    color:black;
+		font-weight: bold;
+}
+#showLess {
+    color:red;
+    cursor:pointer;
+}
+#showLess:hover {
+    color:black;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none
+}
+
+
+
+.slick-prev {
+    left: 7px;
+    z-index:2;
+    color: white;
+    outline: black;
+}
+
+.slick-next {
+    right: 37px;
+    z-index:2;
+    color: white;
+}
+.slick-prev, .slick-next {
+  width: 0px;
+  height: 0px;
+  text-shadow: #000 0px 0px 1px;
+  -webkit-font-smoothing: antialiased;
+	font-size: 0;
+	border: none;
+	top: 25%;
+
+}
+
+.slick-prev::before {
+    font-stretch: condensed;
+    content: "<";
+    font-size: 55px;
+    color: white;
+		opacity: 1;
+
+
+}
+.slick-next::before {
+    font-stretch: condensed;
+    content:  ">";
+    font-size: 55px;
+    color: white;
+		opacity: 1;
+
+}
+
+
+
+
+#pad {
+	padding: 0px;
+}
+
+#autores {
+	position: absolute;
+	bottom: 1%;
+	right: 2%;
+	color: white;
+}
+
+#ig {
+	text-decoration: underline;
+}

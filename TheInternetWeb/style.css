@@ -1,0 +1,808 @@
+body {
+font-family:Helvetica;
+font-size: 40px;
+line-height: 1.3;
+color: black;
+}
+
+a {
+color: black;
+}
+
+a:hover {
+  background-color: yellow;
+  text-decoration: none;
+  color: black;
+}
+
+hr {
+  color: black;
+  border-top: 1px solid;
+}
+
+
+
+#videoproyecto::-webkit-media-controls-panel {
+display: none !important;
+opacity: 1 !important;}
+
+
+
+
+video::-webkit-media-controls-panel {
+display: flex !important;
+}
+
+
+
+
+@font-face {
+  font-family: helvetica ;
+  src: url(Helvetica.ttf);
+}
+
+#navazul{
+  font-weight: bold;
+}
+
+#linkazul {
+  color: blue;
+  text-decoration: underline;
+}
+
+#sticky {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#navegador{
+	padding: 60px;
+  font-size: 30px;
+}
+
+#nav{
+  padding: 0;
+	margin: 0px;
+}
+
+#navprojects{
+  padding: 0;
+	margin: 0px;
+}
+
+@media (max-width: 768px)
+{
+  #navegador{
+	padding: 20px;
+  padding-bottom: 10px;
+  font-size: 12px;
+}
+  #navprojects{
+  	margin-left: 15px;
+  }
+}
+
+
+
+}
+
+
+
+#play{
+  text-align: right;
+  color: blue;
+  text-decoration: underline;
+}
+
+
+
+
+#navitem{
+	margin: 0px;
+}
+
+#header {
+	text-align: center;
+  font-size: 250px;
+  margin-left: 10%;
+  margin-right: 5%;
+  font-weight: 100;
+}
+
+#header2 {
+text-align: center;
+font-size: 250px;
+position: absolute;
+top: 25%;
+left: 7%;
+right: 2%;
+
+}
+
+@media (max-width: 768px)
+{
+  #header2 {
+    font-size: 100px;
+  }
+
+}
+
+#arrows1 {
+font-size: 200px;
+position: fixed;
+bottom: 0%;
+left: 2%;
+font-family: timesnewroman;
+
+}
+
+#arrows2 {
+font-size: 200px;
+position: fixed;
+bottom: 0%;
+right: 2%;
+font-family: timesnewroman;
+}
+
+@media (max-width: 768px)
+{
+
+  #arrows1, #arrows2 {
+      font-size: 100px;
+  }
+}
+/* INDEX IMAGENES ******************************************************************************/
+
+
+
+#imagenuno, #imagendos {
+  z-index: 0;
+  width: 20%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#imagenuno {
+  top: 50px;
+  left: 50px;
+}
+
+#pruebafondoindex {
+  height: 100vh;
+  width: 80%;
+  z-index: -1;
+  position: absolute;
+  top: 0px;
+  left: 3%;
+}
+
+
+/* WORKS **************************************************************************************************************************************************************/
+
+#divvacio {
+  margin: 0px;
+
+}
+
+#navegadorworks{
+	padding: 60px;
+  font-size: 30px;
+}
+
+#linksworks {
+
+  padding-top: 0px;
+  font-size: 20px;
+}
+
+@media (max-width: 768px)
+{
+  #linksworks {
+    padding-top: 10px;
+    font-size: 10px;
+  }
+
+  #navegadorworks{
+  	padding: 20px;
+    font-size: 12px;
+  }
+
+}
+
+
+#worksgallery {
+
+}
+
+
+#imagenworkdiv {
+  padding: 0px;
+  margin-top: -0px;
+   cursor: pointer;
+
+}
+
+#imagenwork {
+  margin-right: -15px;
+  max-width: calc(100% + 0px);
+  float: right;
+  cursor: pointer;
+
+}
+
+@media (max-width: 768px)
+{
+#imagenworkdiv {
+  padding: 0px;
+  margin: -20px;
+  margin-top: 10px;
+}
+
+#imagenwork {
+  max-width: calc(100% + 35px);
+  float: none;
+
+}
+}
+
+
+
+:root {
+  --size: 80%;
+  --sizeios: 500px;
+}
+
+/* MENOSSEIS *********/
+
+#menosseis {
+  width: 20%;
+  position: absolute;
+  top: calc(207% + var(--size));
+  left: 40%;
+  z-index: -1;
+
+}
+
+#navmenosseis{
+  display: none;
+  padding: 0;
+	margin: 0px;
+}
+
+/* MENOSCINCO *********/
+
+#menoscinco {
+  width: 20%;
+  position: absolute;
+  top: calc(205% + var(--size));
+  left: 5%;
+  z-index: -1;
+
+}
+
+#navmenoscinco{
+  display: none;
+  padding: 0;
+	margin: 0px;
+}
+
+/* MENOSCUATRO *********/
+
+#menoscuatro {
+  width: 20%;
+  position: absolute;
+  top: calc(180% + var(--size));
+  left: 75%;
+  z-index: -1;
+
+}
+
+#navmenoscuatro{
+  display: none;
+  padding: 0;
+	margin: 0px;
+}
+
+/* MENOSTRES *********/
+
+#menostres {
+  width: 20%;
+  position: absolute;
+  top: calc(150% + var(--size));
+  left: 26%;
+  z-index: -1;
+
+}
+
+#navmenostres{
+  display: none;
+  padding: 0;
+	margin: 0px;
+}
+
+/* MENOSDOS *********/
+
+#menosdos {
+  width: 20%;
+  position: absolute;
+  top: calc(120% + var(--size));
+  left: 67%;
+  z-index: -1;
+
+}
+
+#navmenosdos{
+  display: none;
+  padding: 0;
+	margin: 0px;
+}
+
+/* MENOSUNA *********/
+
+#menosuna {
+  width: 18%;
+  position: absolute;
+  top: calc(110% + var(--size));
+  left: 4%;
+  z-index: -1;
+
+}
+
+#navmenosuna{
+  display: none;
+  padding: 0;
+	margin: 0px;
+}
+
+/* UNA *********/
+
+#una {
+  width: 18%;
+  position: absolute;
+  top: calc(30% + var(--size));
+  left: 10%;
+  z-index: -1;
+
+}
+
+#navuna{
+  display: none;
+  padding: 0;
+	margin: 0px;
+}
+
+/* DOS *********/
+
+#dos {
+  width: 25%;
+  position: absolute;
+  top: calc(10% + var(--size));
+  left: 40%;
+  z-index: -1;
+}
+
+#navdos{
+  display: none;
+  padding: 0;
+	margin: 0px;
+}
+
+/* TRES *********/
+
+#tres {
+  text-align: right;
+  width: 14%;
+  position: absolute;
+  top: calc(5% + var(--size));
+  right: 0%;
+  z-index: -1;
+}
+
+#navtres{
+  display: none;
+  padding: 0;
+	margin: 0px;
+}
+
+/* CUATRO *********/
+
+
+#cuatro {
+  text-align: right;
+  width: 25%;
+  position: absolute;
+  top: calc(50% + var(--size));
+  right: 0%;
+  z-index: -1;
+}
+
+#navcuatro{
+  display: none;
+  padding: 0;
+	margin: 0px;
+}
+
+/* CINCO *********/
+
+#cinco {
+  width: 25%;
+  position: absolute;
+  top: calc(80% + var(--size));
+  left: 30%;
+  z-index: -1;
+}
+
+#navcinco{
+  display: none;
+  padding: 0;
+	margin: 0px;
+}
+
+/* SEIS *********/
+
+#seis {
+  width: 15%;
+  position: absolute;
+  top: 63%;
+  left: 18%;
+  z-index: -1;
+}
+
+#navseis{
+  display: none;
+  padding: 0;
+	margin: 0px;
+}
+
+/* SIETE *********/
+
+#siete {
+  width: 20%;
+  position: absolute;
+  top: 15%;
+  left: 48%;
+  z-index: -1;
+}
+
+#navsiete{
+  display: none;
+  padding: 0;
+	margin: 0px;
+}
+
+/* OCHO *********/
+
+#ocho {
+  width: 18%;
+  position: absolute;
+  top: 5%;
+  left: 75%;
+  z-index: -1;
+}
+
+#navocho{
+  display: none;
+  padding: 0;
+	margin: 0px;
+}
+
+/* NUEVE *********/
+
+#nueve {
+  width: 15%;
+  position: absolute;
+  top: 2%;
+  left: 25%;
+  z-index: -1;
+}
+
+
+#navnueve{
+  display: none;
+  padding: 0;
+	margin: 0px;
+}
+
+/* FIN *********/
+
+#workinfo {
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+@media (max-width: 768px)
+{
+  #workinfo {
+    margin-top: 5px;
+    font-size: 7px;
+  }
+
+  #menosseis {
+    width: 40%;
+    top: calc(170% + var(--sizeios));
+    left: 15%;
+
+  }
+
+  #menoscinco {
+    width: 35%;
+    top: calc(158% + var(--sizeios));
+    left: 65%;
+
+  }
+
+
+  #menoscuatro {
+    width: 35%;
+    top: calc(128% + var(--sizeios));
+    left: 45%;
+
+  }
+
+  #menostres {
+    width: 35%;
+    top: calc(140% + var(--sizeios));
+    left: 0%;
+
+  }
+
+
+  #menosdos {
+    width: 35%;
+    top: calc(100% + var(--sizeios));
+    left: 60%;
+
+  }
+
+  #menosuna {
+    width: 30%;
+    top: calc(113% + var(--sizeios));
+    left: 2%;
+
+  }
+
+  #una {
+    width: 40%;
+    top: calc(40% + var(--sizeios));
+    left: 0%;
+  }
+
+  #dos {
+    width: 35%;
+    top: calc(30% + var(--sizeios));
+    left: 50%;
+  }
+
+  #tres {
+    width: 30%;
+    top: calc(5% + var(--sizeios));
+  }
+
+  #cuatro {
+    width: 40%;
+    top: calc(60% + var(--sizeios));
+    left: 50%;
+
+  }
+
+  #cinco {
+    width: 40%;
+    top: calc(80% + var(--sizeios));
+    left: 5%;
+
+  }
+
+  #seis {
+    width: 35%;
+    top: 70%;
+    left: 8%;
+    z-index: -1;
+  }
+
+  #siete {
+    width: 40%;
+    top: 33%;
+    left: 48%;
+  }
+
+  #ocho {
+    width: 25%;
+    position: absolute;
+    top: 3%;
+    left: 75%;
+    z-index: -1;
+  }
+
+  #nueve {
+    width: 35%;
+    top: 30%;
+    left: 0%;
+  }
+
+
+}
+
+#more {
+  text-align: right;
+  padding-left: 0px;
+}
+
+#info {
+  text-align: left;
+  padding-right: 0px;
+}
+
+
+/* PROJECTS **************************************************************************************************************************************************************/
+
+
+#projectsblue {
+  color: blue;
+  font-family: serif;
+  text-decoration: underline;
+  font-size: 30px;
+
+}
+
+#nobruno{
+   color: black;
+   text-decoration: none;
+   font-family: Helvetica;
+   font-size: 20px;
+
+}
+
+
+@media (max-width: 768px)
+{
+#projectsblue {
+  font-size: 12px;
+  }
+
+#nobruno{
+  font-size: 10px;
+  }
+}
+
+#fechalarga {
+  margin: 0px;
+}
+
+#fechacorta {
+  margin: 0px;
+  display: none;
+}
+
+@media (max-width: 2000px)
+{
+  #fechalarga {
+    margin: 0px;
+    display: none;
+  }
+
+  #fechacorta {
+    display: block;
+  }
+
+}
+
+#colizq{
+  padding: 0;
+  padding-right: 5%;
+  margin: 0px;
+  text-align: right;
+
+}
+
+.fancybox__caption {
+  font-size: 20px;
+  font-family:Helvetica;
+  color: white;
+}
+
+/* PROJECTS Hide-Mostrar **********************************************************************************************************************************************/
+
+    #carpeta {
+      display: none;
+
+    }
+
+    #carpeta2 {
+      display: none;
+
+    }
+
+    #carpeta3 {
+      display: none;
+
+    }
+
+    #carpeta4 {
+      display: none;
+
+    }
+
+    #carpeta5 {
+      display: none;
+
+    }
+
+    #hide {
+      display: none;
+      position: fixed;
+      top: 30%;
+      left: 30%;
+      z-index: -1;
+
+    }
+
+    #mostrar:hover {
+      background-color: yellow;
+    }
+
+    #mostrar:hover + #hide {
+      display: grid;
+      color: red;
+    }
+
+    @media (max-width: 768px)
+    {
+      #mostrar{
+
+      }
+    }
+
+
+    #hide1 {
+      display: none;
+      position: fixed;
+      top: 20%;
+      left: 40%;
+      z-index: -1;
+
+    }
+
+    #mostrar1:hover + #hide1 {
+      display: grid;
+      color: red;
+    }
+
+    #mostrar1:hover {
+      background-color: yellow;
+    }
+
+    #abrir:hover {
+      background-color: yellow;
+
+
+    }
+
+
+/* ABOUT ************************************************************************************************************************************************************/
+
+
+    #title {
+      font-weight: bold;
+      margin-top: 0px;
+
+    }
+
+    #cuadro {
+      text-align: center;
+      padding: 2px;
+      padding-left: 12px;
+      padding-right: 12px;
+      border: 1px solid black;
+    }
+
+    hr {
+      margin-top: 2%;
+      margin-bottom: 2%;
+    }
+
+    p {
+      margin-top: 3%;
+      margin-bottom: 3%;
+    }
